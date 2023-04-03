@@ -1,0 +1,109 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 100px;
+    font-family: sans-serif;
+}
+
+*{
+    border: 0;
+    box-sizing: border-box;
+}
+
+.countries{
+    width: 350px;
+    height: 70px;
+    background-color: #bcbcbc;
+    border-radius: 10px;
+    position: relative;
+    /* border: 1px solid #0000005c; */
+    /* box-shadow:  0 0 10px 0 #57575740; */
+}
+
+.countries .total{
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    /* padding: 0 50px 0 50px ; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    cursor: pointer;
+}
+
+.countries .total img{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 50%;
+    margin-left: 30px;
+    box-shadow: 0 0 10px 0 #ffffff3f;
+}
+
+.countries .total p{
+    width: 170px;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.countries .total ion-icon{
+    scale: 1.7;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.countries .other{
+    width: 100%;
+    height: 0px;
+    background-color: #bcbcbc;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 75px;
+    transition: all .3s;
+    overflow: hidden;
+
+}
+
+.countries .other div{
+    display: flex;
+    align-items: center;
+    padding: 7px 7px 7px 30px;
+    border-bottom: .5px solid rgb(213, 213, 213);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.countries .other div:hover{
+    background-color: rgb(215, 215, 215);
+}
+
+.countries .other div p {
+margin-left: 30px;
+font-size: 20px;
+    
+}
+
+.countries .other img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.249);
+}
+
+
+
+
+
+
+
+
+
+
+
+
