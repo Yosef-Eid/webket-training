@@ -1,0 +1,169 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px 0 200px;
+    font-family: sans-serif;
+    background-color: rgb(244, 247, 250);
+}
+
+.users{
+    width: 100%;
+    position: relative;
+}
+
+.users .top{
+    width: 100%;
+    height: 100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.users .top .text h1{
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.users .top .text p{
+    font-weight: lighter;
+    color: #777;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.users .top button{
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #d400ff;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.users .top button:hover{
+    background-color:#d400ff ;
+    color: white;
+}
+
+.users .cards{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.users .cards .card {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    outline: 1px solid rgba(212, 0, 255, 0.15);
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.users .cards .card:hover{
+    box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.096);
+}
+
+.users .cards .card .icon{
+    scale:.5;
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    display: none;
+}
+
+.users .cards .card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.users .cards .card div{
+    margin-left: 20px;
+}
+
+.users .cards .card h2{
+    font-weight: lighter;
+}
+
+.users .cards .card p{
+    font-weight: lighter;
+    color: #888;
+    margin-top: -20px;
+}
+
+.users .cards .card .up{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 255, 255, 0.352); */
+    position: absolute;
+    left: -20px;
+    z-index: 100px;
+}
+
+.users .bottom{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.users .bottom p{
+    font-size: 23px;
+    font-weight: lighter;
+    color: #555;
+}
+
+.users .bottom .number{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #d400ff;
+}
+
+.users .bottom button{
+    width: 180px;
+    height: 50px;
+    background-color: #d400ff;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-left: 30px;
+}
+
+.users .bottom button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.128);
+}
+
+
+
+
+
+
+
+
+
+
+
